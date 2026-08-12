@@ -4,7 +4,15 @@ from reportlab.pdfgen import canvas
 import io
 
 st.set_page_config(page_title="AI Resume Screening System", layout="wide")
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+</style>
+""", unsafe_allow_html=True)
 # ---------------------------------------------------------
 # SKILLS + SYNONYMS
 # ---------------------------------------------------------
