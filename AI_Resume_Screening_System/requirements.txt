@@ -3,3 +3,4 @@ PyPDF2
 reportlab
 pandas
 scikit-learn
+python-docx>=0.8.11
